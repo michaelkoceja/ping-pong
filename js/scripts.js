@@ -2,8 +2,11 @@
 
 //If userInput is divisible by 3, return ping, if not, return userInput
 //If userInput is divisible by 5, return pong, if not, return userInput
+//if userInput is divisible by 15, return ping-pong, if not, return userInput
 var numberInput = function(userInput) {
-  if (userInput % 5 === 0) {
+  if (userInput % 15 === 0) {
+    return("ping-pong");
+  } else if (userInput % 5 === 0) {
     return ("pong");
   } else if (userInput % 3 === 0) {
     return ("ping");
