@@ -1,20 +1,16 @@
 //Business Logic
 
 //If userInput is divisible by 3, return ping, if not, return userInput
+//If userInput is divisible by 5, return pong, if not, return userInput
 var numberInput = function(userInput) {
-  if (userInput % 3 === 0){
+  if (userInput % 5 === 0) {
+    return ("pong");
+  } else if (userInput % 3 === 0) {
     return ("ping");
   } else {
     return userInput;
   }
 };
-
-// var numberInput = function(inputtedNumber) {
-//   return inputtedNumber;
-//   if (userInput % === 3){
-//     return ("ping")
-//   }
-// };
 
 
 
