@@ -1,8 +1,21 @@
 //Business Logic
 
-var numberInput = function(inputtedNumber) {
-  return inputtedNumber;
+//If userInput is divisible by 3, return ping, if not, return userInput
+var numberInput = function(userInput) {
+  if (userInput % 3 === 0){
+    return ("ping");
+  } else {
+    return userInput;
+  }
 };
+
+// var numberInput = function(inputtedNumber) {
+//   return inputtedNumber;
+//   if (userInput % === 3){
+//     return ("ping")
+//   }
+// };
+
 
 
 //User Interface Logic
