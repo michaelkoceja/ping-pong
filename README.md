@@ -8,18 +8,24 @@
 
 This application prompts the user to enter a number. It'll then see if the number is divisible by 3, 5, and 15. The application will then display a result depending on the numbers divisibility. 5 May, 2017
 
+| Behavior                                       |  Input | Output    |
+| ---------------------------------------------- | ------ | --------- |
+| Numbers divisible by 3 will display "ping"     | 3      | ping      |
+| Numbers divisible by 5 will display "pong"     | 5      | pong      |
+| Numbers divisible by 15 will display "pingpong"| 45     | pingpong  |
+| All other numbers will displayed as is         | 7      | 7         |
+| Negative numbers and letters not recognized    | b      | NaN       |
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Open Terminal/CDM
+* git clone https://github.com/michaelkoceja/ping-pong
+* Enter a number into submit field and click button.
 
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+There are currently no known bugs.
 
 ## Support and contact details
 
